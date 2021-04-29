@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+/* NAV TOP */
+nav{
+    height:60px;
+    background-color: white;
+    line-height: 70px;
+    padding: 0px 20px;
+}
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#nav-list-left{
+   display: inline-block;
+}
+#nav-list-left li{
+    display: inline-block;
+}
+/*  */
