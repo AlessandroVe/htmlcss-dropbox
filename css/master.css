@@ -58,14 +58,50 @@ nav::after{
 /*  */
 /* HEADER */
 header{
-    height: 700px;
+    height:700px;
     background-color: cornflowerblue;
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
 }
-header>h1{
-    font-size: 55px;
-    margin: auto;
+header>div{
     max-width: 1200px;
+    margin: 0 auto;
+}
+header>div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header h1{
+    font-size: 55px;  
+}
+#text-box-header{
+    width: 20%;
+    float: left;
+}
+#text-box-header>p{
+    line-height: 25px;
+    margin: 25px 0px; 
+    font-weight: 700;
+}
+header input[type="button"]{
+    border: none;
+    padding: 10px;
+    background-color: rgb(36, 36, 185);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+header input[type="button"]+main{
+    font-weight: 700;
+}
+header input[type="button"]+main+main{
+    font-size: 35px;
+}
+header img{
+    float: right;
+    width: 80%;
+    position: relative;
+    top: 30px;
 }
 
 /*  */
