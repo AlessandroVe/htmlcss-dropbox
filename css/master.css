@@ -101,7 +101,65 @@ header img{
     float: right;
     width: 80%;
     position: relative;
-    top: 30px;
+    top:30px;
 }
-
 /*  */
+/* CONTAINER-LAYOUT */
+#container-layout{
+    max-width: 1024px;
+    border: 1px solid black;
+    height: 1200px;
+    margin: 200px auto ;
+}
+#container-layout::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-layout{
+    height: 140px;
+}
+#top-layout>h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+#left-layout{
+    padding: 10px;
+    width: 33.3%;
+    float: left;
+    height: 80%;
+    
+}
+#center-layout{
+    width: 33.3%;
+    padding: 10px;
+    float: left;
+    height: 80%;
+}
+#right-layout{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    height: 80%;
+}
+.top{
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+.top>img{
+    height: 40px;
+    vertical-align: text-top;
+}
+.container-layout{
+    height: 100%;
+    border: 2px solid lightgrey;
+    padding: 10px;
+}
+.container-layout li{
+    text-decoration: none;
+    margin-bottom: 30px;
+}
