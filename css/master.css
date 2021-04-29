@@ -116,6 +116,10 @@ header img{
     display: table;
     clear: both;
 }
+#container-layout img{
+    height: 30px;
+    vertical-align: text-top;
+}
 #top-layout{
     height: 140px;
 }
@@ -150,16 +154,44 @@ header img{
     border: 2px solid lightgray;
     text-align: center;
 }
-.top>img{
-    height: 40px;
-    vertical-align: text-top;
-}
 .container-layout{
     height: 100%;
-    border: 2px solid lightgrey;
+    border: 3px solid lightgrey;
     padding: 10px;
 }
 .container-layout li{
-    text-decoration: none;
+    list-style: none;
     margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.container-layout li:nth-child(1){
+    font-size: 25px;
+}
+.container-layout li:nth-child(2){
+    margin-bottom: 10px;
+}
+.container-layout li:nth-child(3){
+    color: grey;
+}
+.container-layout li:nth-child(7) input[type="button"]{
+    background-color: blue; 
+    color: aliceblue;  
+    font-weight: 700;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+.container-layout li:nth-child(8) a{
+    color: lightblue;
+}
+.container-layout li:nth-child(9) hr{
+    width: 50px;
+    border: 1px lightgrey solid ;
+}
+.container-layout li:nth-child(10){
+    font-size: 20px;
+}
+.container-layout li:nth-child(10)~li>span{
+    color: blue;
 }
