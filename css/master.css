@@ -58,7 +58,7 @@ nav::after{
 /*  */
 /* HEADER */
 header{
-    height:700px;
+    height: 700px;
     background-color: cornflowerblue;
     padding: 100px 0px 0px 0px;
 }
@@ -100,8 +100,7 @@ header input[type="button"]+main+main{
 header img{
     float: right;
     width: 80%;
-    position: relative;
-    top:30px;
+    margin-top: 30px;
 }
 /*  */
 /* CONTAINER-LAYOUT */
@@ -124,6 +123,9 @@ header img{
 #top-layout>h1{
     font-size: 45px;
     margin-bottom: 30px;
+}
+#top-layout>form[action="URL"] span{
+    margin: 0px 20px;
 }
 #left-layout{
     padding: 14px;
@@ -197,10 +199,91 @@ header img{
 #special-container{
     max-width: 1240px;
     margin: 0 auto;
-    border:1px solid black
+    margin-bottom: 200px;
 }
 #special-container>.top>img{
     height: 40px;
     vertical-align: middle;
 }
+#contact-us{
+    border: 2px solid lightgray;
+    height: 200px;
+    padding:20px;  
+    margin-bottom: 200px;
+}
+#contact-us>input[type="button"]{
+    font-size: 20px;
+    padding: 10px 35px 10px;
+    color: white;
+    background-color: blue;
+    float: right;
+    margin-top: 5px;
+    border: none;
+}
+#contact-us>div span{
+    line-height: 60px;
+    font-weight: 700;
+}
+#contact-us>div span:nth-child(1){
+    font-size: 35px;
+}
+#contact-us>div span:nth-child(3){
+    font-size: 30x;
+}
+#contact-us>div span:nth-child(5){
+    font-size: 15px;
+    font-weight: 300;
+}
+#find-partner>img{
+    width: 55%;
+}
+#find-partner img+div{
+    font-weight: 700;
+    width: 40%;
+    padding: 0px 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 50%;
+    transform: translate(0,-50%);
+}
+#find-partner img+div>h1{
+    font-size: 35px;
+}
+#find-partner img+div>h1+p{
+    color: grey;
+    margin: 20px 0px;
+}
+#find-partner img+div>input[type="button"]{
+    border: 3px solid;
+    background-color: white;
+    padding: 15px;
+    font-weight: 700;
+}
 /*  */
+/* DROPBOX-BUSINESS-OPERATIONS */
+#dropbox-business-operations{
+    border: 1px solid black ;
+    width: 1240px;
+    margin: 0 auto;
+}
+#dropbox-business-operations::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#dropbox-business-operations>h1{
+    margin:30px 30px;
+    font-size:35px
+}
+.box{
+    width: 33.3%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+}
+.box>div{
+    text-align: center;
+}
+.box>div>img{
+    width: 80%;
+}
