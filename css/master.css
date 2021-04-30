@@ -262,7 +262,6 @@ header img{
 /*  */
 /* DROPBOX-BUSINESS-OPERATIONS */
 #dropbox-business-operations{
-    border: 1px solid black ;
     width: 1240px;
     margin: 0 auto;
 }
@@ -277,13 +276,27 @@ header img{
 }
 .box{
     width: 33.3%;
-    height: 500px;
-    border: 1px solid black;
+    height: 550px;
     float: left;
 }
-.box>div{
+.box>div:nth-child(1){
     text-align: center;
 }
 .box>div>img{
     width: 80%;
 }
+.box>div:nth-child(2){
+    padding: 10px 35px;
+}
+.box>div:nth-child(2)>h2{
+    margin-bottom: 30px;
+
+}
+.box>div:nth-child(2) p{
+  font-weight: 600;
+}
+.box>div:nth-child(2) p>span{
+   text-decoration: underline;
+}
+/*  */
+/* BANNER-SPONSOR */
