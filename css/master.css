@@ -300,3 +300,30 @@ header img{
 }
 /*  */
 /* BANNER-SPONSOR */
+#banner-sponsor{
+    height: 250px;
+    width: 1240px;
+    margin:100px auto ;
+    padding-left: 50px;
+}
+#banner-sponsor>h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+#banner-sponsor>a{
+    color: blue;
+}
+/*  */
+/* SPONSOR-ZONE */
+ 
+ #sponsor-zone>div{
+     height: 540px;
+     width: 33.3%;
+     background-color: blue;
+     float: left;
+ }
+ #sponsor-zone>div:nth-child(2){
+     background-color: lightgrey;
+ }
+
+/*  */
