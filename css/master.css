@@ -325,49 +325,162 @@ header img{
      width: 33.3%;
      float: left;
  }
- #sponsor-zone>div:nth-child(1)>div, #sponsor-zone>div:nth-child(3)>div{
+ #sponsor-zone>div:nth-child(1)>div, #sponsor-zone>div:nth-child(3)>div{      /* LEFT */
      float: left;
      width: 50%;
      height: 50%;
  }
  #sponsor-zone>div:nth-child(1)>div:nth-child(1){
+     padding: 40px;
      background-color: greenyellow;
  }
+ #designit{
+     height: 100%;
+     background-image: url(../img/designit.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     filter: invert();
+ }
  #sponsor-zone>div:nth-child(1)>div:nth-child(2){
-    background-color: brown
+    background-color: brown;
+    padding: 40px;
+}
+#asu{
+    height: 100%;
+    background-image: url(../img/arizona_state_university.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
 }
 #sponsor-zone>div:nth-child(1)>div:nth-child(3){
-    background-color: lightskyblue
+    background-color: rgb(48, 138, 194);
+    padding: 40px;
+}
+#uf{
+    height: 100%;
+    background-image: url(../img/university_of_florida.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
 }
 #sponsor-zone>div:nth-child(1)>div:nth-child(4){
-    background-color: red
+    background-color: red;
+    padding: 40px;
 }
- #sponsor-zone>div:nth-child(2){
+#topps{
+    height: 100%;
+    background-image: url(../img/topps.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+}
+ #sponsor-zone>div:nth-child(2){          /* CENTER */
      background-color: lightgrey;
+     padding: 50px;
  }
- #sponsor-zone>div:nth-child(3)>div:nth-child(1){
-    background-color: red
+ #sponsor-zone>div:nth-child(2)>img{
+     width: 30%;
+     height: auto;
+     margin-bottom: 30px;
+ }
+ #sponsor-zone>div:nth-child(2)>hr{
+     width: 50px;
+     color: grey;
+     margin-bottom: 30px;
+ }
+ #sponsor-zone>div:nth-child(2)>p{
+     font-weight: 700;
+     margin-bottom: 30px;
+ }
+ #sponsor-zone>div:nth-child(2)>span{
+    font-weight: 700; 
+ }
+ 
+ #sponsor-zone>div:nth-child(3)>div:nth-child(1){              /* RIGHT */
+    background-color: red;
+    padding: 40px;
+}
+#world{
+    height: 100%;
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
 }
 #sponsor-zone>div:nth-child(3)>div:nth-child(2){
-   background-color:lightblue
+   background-color:lightblue;
+   padding: 40px;
+}
+#hearst{
+    height: 100%;
+    background-image: url(../img/hearst_corp.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
 }
 #sponsor-zone>div:nth-child(3)>div:nth-child(3){
-   background-color:blue
+   background-color:blue;
+   padding: 40px;
+}
+#lonely{
+    height: 100%;
+    background-image: url(../img/lonely_planet.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
 }
 #sponsor-zone>div:nth-child(3)>div:nth-child(4){
    background-color: rgba(249, 253, 0,.4);
    padding: 10px;
 }
 #sponsor-zone>div:nth-child(3)>div:nth-child(4)>div{
-    background-color: rgb(249, 253, 0);
+    background-color: rgb(219, 189, 20);
     height: 100%; 
     width: 100%;
- }
- #sponsor-zone>div:last-child{
+    padding: 50px;
+}
+#clear{
+    height: 100%;
+    background-image: url(../img/clear_channel.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+}
+ #sponsor-zone>div:last-child{              /*BOTTOM  */
      background-color:  lightskyblue;
      width: 100%;
      height: 250px;
  }
+ #sponsor-zone>div:last-child>div{
+     width: 50%;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ #sponsor-zone>div:last-child>div h1{
+     font-size: 40px;
+ }
+ #sponsor-zone>div:last-child>div input[type="button"]{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border:none;
+    font-weight: 700;
+
+}
+
 /* QUESTIONS */
 #questions{
     height: 1000px;
