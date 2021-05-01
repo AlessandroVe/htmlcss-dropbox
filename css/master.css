@@ -113,14 +113,19 @@ header img{
     display: table;
     clear: both;
 }
+.container-layout img{
+    margin-right: 5px;
+    float: left;
+}
 #container-layout img{
     height: 30px;
     vertical-align: text-top;
 }
 /*CONTAINER-LAYOUT//// UTILITY */
 .testo{
+    height: 20px;
     width: 80%;
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
 .top{
@@ -169,7 +174,7 @@ header img{
 .container-layout ul:nth-child(2) li:nth-child(4){
     font-size: 20px;
 }
-.container-layout ul:nth-child(2) li:nth-child(5)~li>span:nth-child(1){
+.container-layout ul:nth-child(2) li:nth-child(4)~li>span:nth-child(1){
     color: blue;
 }
 .container-layout ul:nth-child(1){
@@ -493,9 +498,7 @@ header img{
     background-color: white;
     border:none;
     font-weight: 700;
-
 }
-
 /* QUESTIONS */
 #questions{
     height: 1000px;
@@ -576,5 +579,4 @@ footer select{
    color: white;
    background-color: black;
    border: black;
-
 }
