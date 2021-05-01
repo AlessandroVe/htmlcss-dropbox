@@ -553,7 +553,7 @@ footer hr{
 footer hr+img{
     margin-top: 40px;
     height: 50px;
-    width: 50px;
+    width: 80px;
     filter: invert(5);
 }
 footer select{
