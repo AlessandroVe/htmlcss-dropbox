@@ -120,6 +120,12 @@ header img{
 #top-layout{
     height: 140px;
 }
+.testo{
+    padding-left: 5px;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
 #top-layout>h1{
     font-size: 45px;
     margin-bottom: 30px;
@@ -191,7 +197,7 @@ header img{
 .container-layout li:nth-child(10){
     font-size: 20px;
 }
-.container-layout li:nth-child(10)~li>span{
+.container-layout li:nth-child(10)~li>span:nth-child(1){
     color: blue;
 }
 /*  */
