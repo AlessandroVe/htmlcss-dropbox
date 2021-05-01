@@ -117,41 +117,14 @@ header img{
     height: 30px;
     vertical-align: text-top;
 }
-#top-layout{
-    height: 140px;
-}
+/*CONTAINER-LAYOUT//// UTILITY */
 .testo{
-    padding-left: 5px;
     width: 80%;
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
 }
-#top-layout>h1{
-    font-size: 45px;
-    margin-bottom: 30px;
-}
-#top-layout>form[action="URL"] span{
-    margin: 0px 20px;
-}
-#left-layout{
-    padding: 14px;
-    width: 33%;
-    float: left;
-    height: 80%; 
-}
-#center-layout{
-    width: 33%;
-    padding: 14px;
-    float: left;
-    height: 80%;
-}
-#right-layout{
-    width: 33%;
-    float: left;
-    padding: 14px;
-    height: 80%;
-}
 .top{
+    margin-top: 50px;
     height: 80px;
     line-height: 80px;
     font-size: 30px;
@@ -169,17 +142,16 @@ header img{
     margin-bottom: 30px;
     font-weight: 700;
 }
-
-.container-layout li:nth-child(1){
+.container-layout ul:nth-child(1) li:nth-child(1){
     font-size: 25px;
 }
-.container-layout li:nth-child(2){
+.container-layout ul:nth-child(1) li:nth-child(2){
     margin-bottom: 10px;
 }
-.container-layout li:nth-child(3){
+.container-layout ul:nth-child(1) li:nth-child(3){
     color: grey;
 }
-.container-layout li:nth-child(7) input[type="button"]{
+.container-layout ul:nth-child(2) li:nth-child(1) input[type="button"]{
     background-color: blue; 
     color: aliceblue;  
     font-weight: 700;
@@ -187,19 +159,55 @@ header img{
     font-size: 20px;
     border: none;
 }
-.container-layout li:nth-child(8) a{
+.container-layout ul:nth-child(2) li:nth-child(2) a{
     color: lightblue;
 }
-.container-layout li:nth-child(9) hr{
+.container-layout ul:nth-child(2) li:nth-child(3) hr{
     width: 50px;
     border: 1px lightgrey solid ;
 }
-.container-layout li:nth-child(10){
+.container-layout ul:nth-child(2) li:nth-child(4){
     font-size: 20px;
 }
-.container-layout li:nth-child(10)~li>span:nth-child(1){
+.container-layout ul:nth-child(2) li:nth-child(5)~li>span:nth-child(1){
     color: blue;
 }
+.container-layout ul:nth-child(1){
+    height: 400px;
+}
+/* CONTAINER-LAYOUT /// top layout */
+#top-layout{
+    height: 140px;
+}
+#top-layout>h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+#top-layout>form[action="URL"] span{
+    margin: 0px 20px;
+}
+/* CONTAINER-LAYOUT /// left layout */
+#left-layout{
+    padding: 14px;
+    width: 33%;
+    float: left;
+    height: 80%; 
+}
+/* CONTAINER-LAYOUT /// center layout */
+#center-layout{
+    width: 33%;
+    padding: 14px;
+    float: left;
+    height: 80%;
+}
+/* CONTAINER-LAYOUT /// right layout */  
+#right-layout{
+    width: 33%;
+    float: left;
+    padding: 14px;
+    height: 80%;
+}
+/*  */
 /*  */
 /* SPECIAL-CONTAINER */
 #special-container{
