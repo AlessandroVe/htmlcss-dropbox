@@ -59,7 +59,7 @@ nav::after{
 /* HEADER */
 header{
     height: 700px;
-    background-color: cornflowerblue;
+    background-color:  rgb(153, 187, 206);
     padding: 100px 0px 0px 0px;
 }
 header>div{
@@ -467,6 +467,7 @@ header img{
      transform: translate(-50%,-50%);
  }
  #sponsor-zone>div:last-child>div h1{
+     width: 60%;
      font-size: 40px;
  }
  #sponsor-zone>div:last-child>div input[type="button"]{
@@ -489,15 +490,77 @@ header img{
 #questions-container{
     width: 800px;
     height: 800px;
-    border: 1px  solid black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-/*  */
+#questions-container>ul{
+    list-style: none;
+}
+#questions-container>ul li:first-child{
+    font-weight: 700;
+    font-size: 30px;
+}
+#questions-container>ul li{
+    padding-bottom: 35px;
+    padding-top: 25px;
+    border-bottom: 2px solid grey;
+    font-weight: 700;
+    position: relative;
+}
+.icona-questions img{
+    width: 20px;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    transform: translate(0,-50%);
+
+}
+    /*  */
 /* FOOTER */
 footer{
-    height: 500px;
     background-color: black;
+    padding-left: 10%;
+    padding-top: 100px;
+    color: white;
+}
+footer>div{
+    width: 70%;
+    margin: 0 auto;
+}
+footer ul{
+    list-style: none;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin: 0px 40px  0px 0px;
+}
+footer ul:nth-child(4){
+    vertical-align: top;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer ul li:nth-child(1){
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+footer hr{
+    width: 100px;
+    margin-top: 100px;
+}
+footer hr+img{
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    filter: invert(5);
+}
+footer select{
+   position: relative;
+   bottom: 20px;
+   color: white;
+   background-color: black;
+   border: black;
+
 }
