@@ -187,6 +187,7 @@ header img{
     height: 140px;
 }
 #top-layout>h1{
+    min-width: 800px;
     font-size: 45px;
     margin-bottom: 30px;
 }
@@ -196,12 +197,14 @@ header img{
 /* CONTAINER-LAYOUT /// left layout */
 #left-layout{
     padding: 14px;
+    min-width: 400px;
     width: 33%;
     float: left;
     height: 80%; 
 }
 /* CONTAINER-LAYOUT /// center layout */
 #center-layout{
+    min-width: 400px;
     width: 33%;
     padding: 14px;
     float: left;
@@ -209,6 +212,7 @@ header img{
 }
 /* CONTAINER-LAYOUT /// right layout */  
 #right-layout{
+    min-width: 400px;
     width: 33%;
     float: left;
     padding: 14px;
