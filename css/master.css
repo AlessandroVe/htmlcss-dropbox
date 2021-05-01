@@ -157,6 +157,8 @@ header img{
     color: grey;
 }
 .container-layout ul:nth-child(2) li:nth-child(1) input[type="button"]{
+    position: relative;
+    left: 10%;
     background-color: blue; 
     color: aliceblue;  
     font-weight: 700;
