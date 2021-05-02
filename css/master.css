@@ -15,6 +15,17 @@ nav::after{
     display: table;
     clear: both;
 }
+img[alt="logo-nav"]:hover{
+    transform: rotate(360deg);
+}
+
+img[alt="logo-nav"]{ 
+    overflow: hidden; 
+    transition-duration: 2s; 
+    transition-property: transform;
+}
+
+
 #nav-list-left{
    display: inline-block;
    position: relative;
