@@ -360,13 +360,13 @@ header img{
     background-color: brown;
     padding: 40px;
 }
-#asu{
-    height: 100%;
+#asu{                   
+    height: 100%;       
     background-image: url(../img/arizona_state_university.svg);
-    background-size: contain;
+    background-size: contain;    
     background-repeat: no-repeat;
-    background-position: center;
-    filter: invert();
+    background-position:center;  
+    filter: invert();            
 }
 #sponsor-zone>div:nth-child(1)>div:nth-child(3){
     background-color: rgb(48, 138, 194);
