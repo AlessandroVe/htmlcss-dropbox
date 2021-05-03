@@ -4,16 +4,16 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* NAV TOP */
 nav{
     background-color: white;
     line-height: 70px;
     padding: 0px 20px;
-}
-nav::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 img[alt="logo-nav"]:hover{
     transform: rotate(360deg);
@@ -24,8 +24,6 @@ img[alt="logo-nav"]{
     transition-duration: 2s; 
     transition-property: transform;
 }
-
-
 #nav-list-left{
    display: inline-block;
    position: relative;
@@ -77,11 +75,6 @@ header>div{
     max-width: 1200px;
     margin: 0 auto;
 }
-header>div::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 header h1{
     font-size: 55px;  
 }
@@ -118,11 +111,6 @@ header img{
 #container-layout{
     max-width: 1240px;
     margin: 200px auto 90px ;
-}
-#container-layout::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 .container-layout img{
     margin-right: 5px;
@@ -301,11 +289,6 @@ header img{
     width: 1240px;
     margin: 0 auto;
 }
-#dropbox-business-operations::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 #dropbox-business-operations>h1{
     margin:30px 30px;
     font-size:35px
@@ -351,11 +334,6 @@ header img{
 }
 /*  */
 /* SPONSOR-ZONE */
-#sponsor-zone::after{
-    content: "";
-    display: table;
-    clear: both;
-}
  #sponsor-zone>div{
      height: 500px;
      width: 33.3%;
